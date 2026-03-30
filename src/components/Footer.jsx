@@ -9,7 +9,17 @@ const Footer = () => {
             <div class="col-md-4 text-center text-light">
                 <h4 class="text-center text-dark">Stay Connected</h4>
                 <p>For more information dial;</p>
-                <b class="text-light">0723456432</b>
+                <b class="text-light">0723456432</b><br />
+
+                <a href="https://www.facebook.com">
+                    <img src="Images/fb.png" alt="Facebook"/>
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="{logo}" alt="Instagram"/>
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="Images/x.png" alt="X"/>
+                </a>
             </div>
             </div>
     </footer>

@@ -6,7 +6,6 @@ import Addproduct from './components/Addproduct';
 import Getproduct from './components/Getproduct';
 import Makepayment from './components/Makepayment';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import { CardFooter } from 'react-bootstrap';
 import Footer from './components/Footer';
 
 function App() {
@@ -41,7 +40,6 @@ function App() {
                 </nav>
             </div>
         </section>
-
         </div>
       <Routes>
         <Route path='/signup' element = {<Signup />} />
