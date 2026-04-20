@@ -8,7 +8,6 @@ import Makepayment from './components/Makepayment';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import slide1 from "../src/Images/electronics.jpeg"
-import slide2 from "../src/Images/download.jpeg"
 
 function App() {
   return (
@@ -54,23 +53,15 @@ function App() {
             <div id='mycarousel' className='carousel slide' data-bs-ride="carousel">
               <div className='carousel-inner'>
                 <div className='carousel-item active'>
-                  <img src={slide1} alt='slide1' className='d-block w-100 carousel_img' height={200}/>
-                  <img src={slide2} alt='slide2' className='d-block w-100 carousel_img' height={200}/>
-                  
+                  <img src={slide1} alt='slide1' className='d-block w-100 carousel_img'/>
                 </div>
                 <div className='carousel-item'></div>
                 <div className='carousel-item'></div>
                 
 
             </div>
-            <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev" role='button'>
-            <span className='carousel-control-prev-icon bg-danger' aria-hidden="true"></span>
-            <span className='visual-hidden'>Previous</span>
-            </a>
-            <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next" role='button'>
-            <span className='carousel-control-next-icon bg-danger' aria-hidden="true"></span>
-            <span className='visual-hidden'>Next</span>
-            </a>
+            <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev" role='button'></a>
+            <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next" role='button'></a>
         </div>
         </div>
       <Routes>
